@@ -1,0 +1,15 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testMatch": [
+    "**/__tests__/**/*.test.ts"
+  ],
+  "collectCoverageFrom": [
+    "./az-authentication/**/*.ts"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "lines": 85
+    }
+  }
+}
